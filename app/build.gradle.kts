@@ -57,23 +57,6 @@ dependencies {
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 
-//    implementation("com.google.dagger:hilt-android:2.49")
-//    kapt("com.google.dagger:hilt-compiler:2.49")
-
-//    //dagger2
-//    api("com.google.dagger:dagger:2.49")
-//    api("com.google.dagger:dagger-android:2.49")
-//    api("com.google.dagger:dagger-android-support:2.49")
-
-//    annotationProcessor("com.google.dagger:dagger-compiler:2.49")
-//    kapt("com.google.dagger:dagger-compiler:2.49")
-//
-//    annotationProcessor("com.google.dagger:dagger-android-processor:2.49")
-//    kapt("com.google.dagger:dagger-android-processor:2.49")
-
-//    compileOnly("javax.annotation:jsr250-api:1.0")
-//    implementation("javax.inject:javax.inject:1")
-
     implementation("com.google.dagger:dagger:2.49")
     kapt("com.google.dagger:dagger-compiler:2.49")
 
@@ -82,6 +65,8 @@ dependencies {
 
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+
+    implementation("com.github.bumptech.glide:glide:4.13.0")
 
     implementation("androidx.room:room-runtime:2.6.1")
     implementation("androidx.room:room-ktx:2.6.1")
